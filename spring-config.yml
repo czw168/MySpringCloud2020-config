@@ -1,24 +1,14 @@
 #  请保存为UTF-8格式
-
-config:
-  info: "这是master分支"
-
 spring:
   profiles: prod     #生产环境
   application: 
     name: spring-config-prod
 ---
-config:
-  info: "这是master分支"
-
 spring:
   profiles: dev     #开发环境
   application: 
     name: spring-config-dev
 ---
-config:
-  info: "这是master分支"
-
 spring:
   profiles: test   #测试环境
   application: 
